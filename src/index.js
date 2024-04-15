@@ -3,7 +3,7 @@ let nome = "Guilherme";
 let rank;
 
 //Nome do monstro
-let lutar = "Dragão"; 
+let lutar = "Lobo"; 
 
 //Mude para determinar quantas vezes irá lutar com o monstro
 let quantidadeDeLutas = 10; 
@@ -40,7 +40,7 @@ if (experiencia < 1000) {
     rank = "Bronze";
 } else if (experiencia > 2001 && experiencia < 5000) {
     rank = "Prata";
-} else if (experiencia > 6001 && experiencia < 7000) {
+} else if (experiencia > 5001 && experiencia < 7000) {
     rank = "Ouro";
 } else if (experiencia > 7001 && experiencia < 8000) {
     rank = "Platina";
@@ -51,4 +51,4 @@ if (experiencia < 1000) {
 } else if (experiencia >= 10001) {
     rank = "Radiante";
 }
-console.log("O Herói de nome " + nome + " está no rank " + rank)
+console.log("O Herói de nome " + nome + " está no rank " + rank + experiencia)
